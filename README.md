@@ -42,3 +42,37 @@ This project uses **OpenCV**, **MediaPipe**, and **Pygame** to deliver an immers
 
 ## 📂 Project Structure
 
+(*File names may vary based on your implementation*)
+
+---
+
+## ⚙️ Installation & Setup
+
+**✅ 1. Clone the Repository**
+
+-> git clone https://github.com/keyan794/Real-Time-Gesture-Recognition-for-Interactive-Gaming
+
+**✅ 2. Create Virtual Environment: **
+-> python -m venv venv
+
+Activate it:
+
+Windows: 
+-> venv\Scripts\activate
+Mac/Linux: 
+-> source venv/bin/activate
+
+**✅ 3. Install Dependencies**
+-> pip install -r requirements.txt
+Or manually:
+-> pip install opencv-python mediapipe pygame numpy
+
+**✅ 4. Run the Game**
+python main.py
+
+🎯 Game Controls (Gesture-Based)
+Hand Gesture	Game Action
+Hand Movement	Cursor moves across the screen in real time
+Index + Middle Finger Joined	Start shooting
+Fingers Separated	Stop shooting
+Hand Position	Aims the weapon direction
