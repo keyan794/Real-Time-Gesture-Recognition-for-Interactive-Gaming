@@ -373,4 +373,5 @@ def deactivate_beam():
     using_power_bullet = False  # Deactivate power-up bullet
     cooldown = 200  # Reset cooldown to default value
 
+
 start_screen()  # Start the game with the start screen
